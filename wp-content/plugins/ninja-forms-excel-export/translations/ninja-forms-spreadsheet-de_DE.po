@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ninja Forms Spreadsheet Export v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-05-05 13:46:48+0000\n"
+"Last-Translator: Hannes Etzelstorfer <hannes@etzelstorfer.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: includes/class-ninjaformsspreadsheet.php:11
+#: includes/class-ninjaformsspreadsheet.php:16
+#@ ninja-forms-spreadsheet
+msgid "Excel Export"
+msgstr "Excel Export"
+
+#: includes/class-ninjaformsspreadsheet.php:45
+#: includes/class-ninjaformsspreadsheet.php:50
+#@ ninja-forms
+msgid "Select a form"
+msgstr ""
+
+#: includes/class-ninjaformsspreadsheet.php:56
+#@ ninja-forms
+msgid "Begin Date"
+msgstr ""
+
+#: includes/class-ninjaformsspreadsheet.php:61
+#@ ninja-forms
+msgid "End Date"
+msgstr ""
+
+#: includes/class-ninjaformsspreadsheet.php:84
+#@ ninja-forms-spreadsheet
+msgid "Field type"
+msgstr "Feld Typ"
+
+#: includes/class-ninjaformsspreadsheet.php:94
+#@ ninja-forms-spreadsheet
+msgid "Select fields"
+msgstr "Felder auswählen"
+
+#: includes/class-ninjaformsspreadsheet.php:106
+#: includes/class-ninjaformsspreadsheet.php:108
+#@ ninja-forms-spreadsheet
+msgid "Download Excel file"
+msgstr "Excel Datei herunterladen"
+
+#: includes/class-ninjaformsspreadsheet.php:197
+#@ ninja-forms-spreadsheet
+msgid "Submission date"
+msgstr "Übermittlungsdatum"
+

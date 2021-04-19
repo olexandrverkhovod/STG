@@ -1,0 +1,165 @@
+#ninja_forms_metabox_spreadsheet_export_form_settings{
+
+    .item-controls{
+        display: none;
+    }
+
+    &.exporting{
+        opacity: 0.5;
+    }
+}
+
+
+#ninja_forms_metabox_spreadsheet_export_fields_settings,
+#ninja_forms_metabox_spreadsheet_export_submit_settings,{
+    float:left;
+    width:350px;
+    margin-right: 20px;
+    min-height:500px;
+
+    .item-controls{
+        display: none;
+    }
+
+    &.exporting{
+        opacity: 0.5;
+    }
+}
+
+
+
+
+#ninja_forms_metabox_spreadsheet_export_fields_settings {
+
+
+    .form-table {
+        th {
+            padding:5px 0 5px 10px;
+        }
+
+        .dashicons{
+            display: block;
+            height: 40px;
+            width: 20px;
+            margin-right: 10px;
+            float: left;
+            font-size: 20px;
+            color: #999;
+            line-height: 1.9;
+            cursor: ns-resize;
+        }
+
+        .ui-sortable-handle th,
+        .ui-sortable-handle td{
+            border-top: 2px solid #f1f1f1;
+            border-bottom: 2px solid #f1f1f1;
+        }
+
+        .ui-sortable-handle th{
+            width: 320px;
+        }
+    }
+}
+
+#ninja_forms_metabox_spreadsheet_export_fields_settings,
+#ninja_forms_metabox_spreadsheet_export_filter_settings{
+    .item-controls{
+        display: none;
+    }
+
+    &.loading{
+        opacity: 0.5;
+        background: #ffffff url(../images/ajax-loader.gif) no-repeat center center;
+    }
+
+    &.exporting{
+        opacity: 0.5;
+    }
+}
+
+
+#ninja_forms_metabox_spreadsheet_export_filter_settings{
+    .button{
+        height: 22px;
+        width: 22px;
+        font-size: 22px;
+        line-height: 17px;
+        text-align: center;
+        padding: 1px
+    }
+
+    th{
+        display: none;
+    }
+
+    input,select{
+        height: 22px;
+        border-radius: 0;
+    }
+
+    input{
+        vertical-align: -1px;
+    }
+
+    .spreadsheet-filter-field{
+        width: 180px;
+    }
+
+    .spreadsheet-filter-condition{
+        width: 180px;
+    }
+
+    .spreadsheet-filter-row-template{
+        display: none;
+    }
+
+    .spreadsheet-filter-row{
+
+    }
+}
+
+#ninja_forms_metabox_spreadsheet_export_submit_settings{
+    background: none;
+    box-shadow: none;
+    border:none;
+
+    h3,th{
+        display: none;
+    }
+}
+
+
+.spreadsheet-export-progress{
+    margin-top: 20px;
+    display: none;
+}
+
+.exporting .spreadsheet-export-progress{
+    display: block;
+}
+
+#ui-datepicker-div {
+    background: #f1f1f1;
+    border-radius: 4px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+}
+#ui-datepicker-div a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#ui-datepicker-div .ui-datepicker-header,
+#ui-datepicker-div .ui-datepicker-calendar th,
+#ui-datepicker-div .ui-datepicker-calendar td {
+    padding: 5px;
+    text-align: center;
+}
+
+#ui-datepicker-div .ui-icon {
+    text-indent: 0px;
+}
+.ui-datepicker-prev {
+    float: left;
+}
+.ui-datepicker-next {
+    float: right;
+}

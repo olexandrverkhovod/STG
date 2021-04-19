@@ -1,0 +1,53 @@
+#ninja_forms_metabox_spreadsheet-export-form-selection,
+#ninja_forms_metabox_spreadsheet-export-field-selection,
+#ninja_forms_metabox_spreadsheet-export-submit {
+	float:left;
+	width:300px;
+	margin-right: 20px;
+	min-height:500px;
+}
+
+#ninja_forms_metabox_spreadsheet-export-form-selection{
+    width:400px;
+}
+
+#ninja_forms_metabox_spreadsheet-export-form-selection .item-controls,
+#ninja_forms_metabox_spreadsheet-export-field-selection .item-controls,
+#ninja_forms_metabox_spreadsheet-export-submit .item-controls{
+    display: none;
+}
+
+#ninja_forms_metabox_spreadsheet-export-field-selection .form-table th {
+	padding:5px 10px;
+}
+
+#ninja_forms_metabox_spreadsheet-export-submit {
+	width:200px;
+    min-width: 200px;
+    background: none;
+    box-shadow: none;
+    border:none;
+}
+
+#ninja_forms_metabox_spreadsheet-export-submit h3{
+    display: none;
+}
+
+#ninja_forms_metabox_spreadsheet-export-field-selection.loading{
+    opacity: 0.5;
+    background: #ffffff url(../images/ajax-loader.gif) no-repeat center center;
+}
+
+#ninja_forms_metabox_spreadsheet-export-form-selection.exporting,
+#ninja_forms_metabox_spreadsheet-export-field-selection.exporting{
+    opacity: 0.5;
+}
+
+.spreadsheet-export-progress{
+    margin-top: 20px;
+    display: none;
+}
+
+.exporting .spreadsheet-export-progress{
+    display: block;
+}
